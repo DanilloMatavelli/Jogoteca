@@ -1,0 +1,7 @@
+print("SEJA BEM-VINDO AO JOGOTECA!!!")
+print("DESENVOLVIDO POR DANILLO!!!")
+print("TEMOS OS SEGUINTES JOGOS DISPONÍVEIS")
+print("1 - JOGO DA CALCULADORA")
+print("2 - JOGO DA FORCA MORTAL")
+print("3 - JOGO DA VELHA")
+idade_jogador = int(input("Qual sua idade"))
