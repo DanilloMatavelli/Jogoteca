@@ -2,6 +2,7 @@ import os
 from Jogo_da_calculadora.calculadora_extreme import *
 from Jogo_da_calculadora.jogo_adivinhacao import * 
 from Jogo_da_velha.exercicio_jogo_da_velha import *
+from jogo_da_forca.jogo_forca import *
 
 os.system("cls")
 
@@ -34,6 +35,10 @@ else:
     if escolhe_um_jogo ==3:
         os.system("cls")
         jogo_da_velha()
+    
+    if escolhe_um_jogo ==4:
+        os.system("cls")
+        jogo_da_forca()
     
     
 

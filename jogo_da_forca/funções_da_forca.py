@@ -5,21 +5,21 @@ import random
 def escolha_uma_palavra() -> str:
     categoria = input("Qual categoria você quer jogar, animais, objetos ou frutas?")
     if categoria == "animais":
-        arquivo= open("animais.txt", "r" , encoding = 'utf8')
+        arquivo= open("jogo_da_forca/animais.txt", "r" , encoding = 'utf8')
         categoria_animais = arquivo.read()
         arquivo.close()
         lista = categoria_animais.split("\n")
         palavra_escolhida = random.choice (lista)
         return palavra_escolhida.upper()
     if categoria == "objetos":
-        arquivo= open("objetos.txt", "r" , encoding = 'utf8')
+        arquivo= open("jogo_da_forca/objetos.txt", "r" , encoding = 'utf8')
         categoria_objetos= arquivo.read()
         arquivo.close()
         lista = categoria_objetos.split("\n")
         palavra_escolhida = random.choice (lista)
         return palavra_escolhida.upper()
     if categoria == "frutas":
-        arquivo= open("fruta.txt", "r" , encoding = 'utf8')
+        arquivo= open("jogo_da_forca/fruta.txt", "r" , encoding = 'utf8')
         categoria_frutas = arquivo.read()
         arquivo.close()
         lista = categoria_frutas.split("\n")
