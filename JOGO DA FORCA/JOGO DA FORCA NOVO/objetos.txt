@@ -1,0 +1,50 @@
+Mesa
+Cadeira
+Sofá
+Luminária
+Tapete
+Geladeira
+Fogão
+Televisão
+Computador
+Livro
+Caneta
+Caderno
+Relógio
+Celular
+Óculos
+Chave
+Espelho
+Faca
+Garfo
+Colher
+Prato
+Copo
+Bola
+Brinquedo
+Escova de dentes
+Pasta de dente
+Sabonete
+Toalha
+Shampoo
+Condicionador
+Escova de cabelo
+Mochila
+Carteira
+Bolsa
+Guarda-chuva
+Cama
+Travesseiro
+Cobertor
+Vaso
+Janela
+Porta
+Armário
+Gaveta
+Quadro
+Lápis
+Borracha
+Tesoura
+Fita adesiva
+Papel
+Agenda
