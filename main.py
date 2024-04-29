@@ -3,6 +3,7 @@ from Jogo_da_calculadora.calculadora_extreme import *
 from Jogo_da_calculadora.jogo_adivinhacao import * 
 from Jogo_da_velha.exercicio_jogo_da_velha import *
 from jogo_da_forca.jogo_forca import *
+from Jogo_joquempô.joquempô import *
 
 os.system("cls")
 
@@ -21,6 +22,7 @@ else:
     print("2 - JOGO ADIVINHAÇÃO ")
     print("3 - JOGO DA VELHA ZUMBI")
     print("4 - JOGO DA FORCA MORTAL")
+    print("5 - Joquempô da Morte")
     
     escolhe_um_jogo = int(input("Qual jogo você deseja jogar?"))
 
@@ -39,6 +41,10 @@ else:
     if escolhe_um_jogo ==4:
         os.system("cls")
         jogo_da_forca()
+    
+    if escolhe_um_jogo ==5:
+        os.system("cls")
+        joquempô
     
     
 
