@@ -92,6 +92,8 @@ def jogo_da_velha():
             print("Voce ganhouuu!!!")
             break
 
+        input()
+
 
 if "__main__" == __name__:
     jogo_da_velha()    

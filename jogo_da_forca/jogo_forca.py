@@ -28,6 +28,7 @@ def jogo_da_forca():
         if "_" not in mascara:
             print("Voce Ganhou!!!")
             break
+        input()
 
         # if len (letra_escolhia) > 1:
         #     letra_escolhia == palavra_secreta

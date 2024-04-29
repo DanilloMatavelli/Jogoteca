@@ -54,6 +54,8 @@ def joquempô():
     if escolha_o_que_ira_jogar == "Tesoura" and numero_aleatorio == "Tesoura":
         print("Você Perdeuu!!!") 
 
+    input()
+
 if "__main__" == __name__:
     joquempô()
 

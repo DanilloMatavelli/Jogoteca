@@ -71,7 +71,7 @@ def jogo_da_adivinhacao():
                                                                                         
                                                                                           
                                                                                           ''')
-
+    input()
 
     if "__main__" == __name__:
         jogo_da_adivinhacao()

@@ -47,6 +47,8 @@ def jogo_calculadora():
     else:
         print(f"Voce errou, é {divisão}")
 
+    input()
+    
 if "__main__" == __name__:
     jogo_calculadora()
 
