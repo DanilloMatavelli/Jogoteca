@@ -1,5 +1,5 @@
 
-from funções_da_forca import * # Como eu coloquei todas as funções em um outro arquivo, precisei importar tudo
+from .funções_da_forca import * # Como eu coloquei todas as funções em um outro arquivo, precisei importar tudo
 
 def jogo_da_forca():
     palavra_secreta = escolha_uma_palavra() # Chamei a função escolha_palavra e armezenei o seu retorno
