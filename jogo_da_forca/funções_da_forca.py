@@ -78,6 +78,7 @@ def preenche_mascara (palavra : str , letra_escolhida : str , mascara : list) ->
             mascara [contador_incide] = letra_escolhida 
         contador_incide = contador_incide + 1
     return mascara
+    input()
 
             
 

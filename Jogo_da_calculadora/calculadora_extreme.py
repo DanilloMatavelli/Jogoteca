@@ -25,30 +25,30 @@ def jogo_calculadora():
     if numero_aleatorio ==2:
         substração = numero_aleatorio - numero_aleatorio2
         digite_o_numero = float(input(f"Quanto é {numero_aleatorio} - {numero_aleatorio2}:"))
-    if digite_o_numero ==  substração:
-        print("Parabens voce acertou!")
-    else:
-        print(f"Voce errou, é {substração}")
+        if digite_o_numero ==  substração:
+            print("Parabens voce acertou!")
+        else:
+            print(f"Voce errou, é {substração}")
 #multiplicação
     if numero_aleatorio ==3:
         multiplicação = numero_aleatorio * numero_aleatorio2
         digite_o_numero = float(input(f"Quanto é {numero_aleatorio} * {numero_aleatorio2}:"))
-    if digite_o_numero ==  multiplicação:
-        print("Parabens voce acertou!")
-    else:
-        print(f"Voce errou, é {multiplicação}")
+        if digite_o_numero ==  multiplicação:
+            print("Parabens voce acertou!")
+        else:
+            print(f"Voce errou, é {multiplicação}")
 #Divisão
     if numero_aleatorio ==4:
         divisão = numero_aleatorio / numero_aleatorio2
         divisão = round(divisão, 2)
-    digite_o_numero = float(input(f"Quanto é {numero_aleatorio} / {numero_aleatorio2}:"))
-    if digite_o_numero ==  divisão:
-        print("Parabens voce acertou!")
-    else:
-        print(f"Voce errou, é {divisão}")
+        digite_o_numero = float(input(f"Quanto é {numero_aleatorio} / {numero_aleatorio2}:"))
+        if digite_o_numero ==  divisão:
+            print("Parabens voce acertou!")
+        else:
+            print(f"Voce errou, é {divisão}")
 
     input()
-    
+
 if "__main__" == __name__:
     jogo_calculadora()
 

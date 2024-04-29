@@ -82,4 +82,5 @@ def trapezio (A : str , base_menor : int , base_maior : int , altura : int ):
     if A =="A" :
         A = (base_menor+base_maior) * altura / 2
         return A
+
     

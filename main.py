@@ -48,7 +48,7 @@ else:
         
         if escolhe_um_jogo ==5:
             os.system("cls")
-            joquempô
+            joquempô()
         input()
 
 
